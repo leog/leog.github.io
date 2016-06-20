@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style type="text/css">
+    /**
+     * Hide when Angular is not yet loaded and initialized
++    */
+     [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+     }
+    </style>
+</head>
+<body>
+    <div layout="column" layout-align="center center" id="main" ng-cloak>
+        <img src="images/leog_v1.gif" />
+        <div id="networks">
+            <a href="https://twitter.com/leog">
+                <img src="images/twitter.png" class="grayscale" />
+                <md-tooltip>
+                    Twitter
+                </md-tooltip>
+            </a>
+            <a href="https://blog.leog.me">
+                <img src="images/medium.png" class="grayscale" />
+                <md-tooltip>
+                    Medium
+                </md-tooltip>
+            </a>
+            <a href="https://uy.linkedin.com/in/lgiovanetti">
+                <img src="images/linkedin.png" class="grayscale" />
+                <md-tooltip>
+                    LinkedIn
+                </md-tooltip>
+            </a>
+            <a href="http://git.leog.me">
+                <img src="images/github.png" class="grayscale" />
+                <md-tooltip>
+                    Github
+                </md-tooltip>
+            </a>
+        </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js" data-main="index.js"></script>
+</body>
+</html>
